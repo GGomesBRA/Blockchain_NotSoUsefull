@@ -11,7 +11,7 @@ for i in range(5001):
 
 		RESP = requests.get(URL)
 		resp_readable = RESP.json()
-		
+
 		for trait in resp_readable['attributes']:
 
 
